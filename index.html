@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Web Page</title>
+  </head>
+  <body>
+    <!-- HTML Headings -->
+
+    <h1>Hello World!</h1>
+    <h2>Hello World!</h2>
+    <h3>Hello World!</h3>
+    <h4>Hello World!</h4>
+    <h5>Hello World!</h5>
+    <h6>Hello World!</h6>
+
+    <!-- Paragraph -->
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ad explicabo
+      nulla molestiae, sed possimus suscipit commodi ipsum molestias corrupti
+      repudiandae mollitia pariatur placeat saepe exercitationem et nesciunt
+      deserunt velit.
+    </p>
+
+    <!-- Ancher Tag -->
+    <a href="https://www.google.com">Google</a>
+
+    <!-- Image Tag -->
+    <img src="img.jpg" alt="relative ulr" />
+
+    <b>BOLD</b>
+    <br />
+    <i>ITALIC</i>
+    <br />
+    <u>UNDERLINE</u>
+    <hr />
+    <br />
+    <big>BIG</big>
+    <br />
+    <small>SMALL</small>
+    <hr />
+    <br />
+
+    <pre>
+        To,
+            The Principal,
+            PPS BBN BST
+        Sub: Application For Leave.
+
+            Dear Sir,
+                        I beg to say that...           
+    </pre>
+
+    <!-- Div and Span Tag -->
+    <!-- Div cover whole spaces and Span covers particular spaces which are applied -->
+    <div id="parent">
+      <div id="child" class="children"></div>
+      <span id="child2" class="children"> </span>
+    </div>
+
+    <!-- List in HTML -->
+    <!-- Unordered List -->
+    <ul>
+      <li>Apple</li>
+      <ul>
+        <li>Color:Red</li>
+        <li>Season:Winters</li>
+      </ul>
+      <li>Mango</li>
+      <ul>
+        <li>color:yellow</li>
+        <li>season:summer</li>
+      </ul>
+    </ul>
+
+    <!-- Ordered -->
+
+    <ol>
+      <li>Apple</li>
+      <ol type="A">
+        <li>color:red</li>
+        <li>season:winter</li>
+      </ol>
+      <li>Mango</li>
+      <ol type="I">
+        <li>color:yellow</li>
+        <li>season:summer</li>
+      </ol>
+    </ol>
+
+    <!-- Tables In HTML -->
+
+    <table>
+      <thead>
+        <caption>
+          Student Data
+        </caption>
+        <tr>
+          <th colspan="2">Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arun</td>
+          <td>1997</td>
+        </tr>
+        <tr>
+          <td>Akash</td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>Aman</td>
+          <td>1996</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Forms in HTML -->
+
+    <h3>Registration Form</h3>
+
+    <form action=" /action.php">
+      <label for="fname">First Name:</label><br /><br />
+      <input type="text" placeholder="Enter First Name" /><br /><br />
+      <label for="lname">Last Name:</label><br /><br />
+      <input type="text" placeholder="Enter Last Name" /><br /><br />
+      <label for="pass">Password:</label><br /><br />
+      <input
+        type="password"
+        placeholder="Enter your password"
+      /><br /><br /><br />
+
+      <h5>Select your gender:</h5>
+      <input type="radio" id="male" name="gender" value="MALE" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="FEMALE" />
+      <label for="female">FEMALE</label><br />
+      <br /><br />
+
+      <h5>Chech Box:</h5>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br /><br />
+
+      <label for="city">Select Your City:</label><br /><br />
+      <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Noida">Noida</option>
+        <option value="Basti">Basti</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="feedback"
+        id="1"
+        cols="30"
+        rows="10"
+        placeholder="please give your response"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="submit" />
+    </form>
+    <iframe
+      src="https://www.wikipedia.org/"
+      frameborder="0"
+      height="250"
+      height="250"
+      >Wikipedia</iframe
+    >
+  </body>
+</html>
